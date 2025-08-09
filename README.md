@@ -1,7 +1,7 @@
 # ControlMLLM
 
 <div align="center">
-    <img src="assets/method.png" alt="method" width="550"/>
+    <img src="asset/method.png" alt="method" width="550"/>
 </div>
 
 The repo is for the paper [ControlMLLM: Training-Free Visual Prompt Learning for Multimodal Large Language Models (NeurIPS2024)](https://arxiv.org/abs/2407.21534).
@@ -58,7 +58,7 @@ Please follow the instructions at [DATASETS.md](DATASETS.md) to prepare all data
 ```
 python controlmllm/llava/llava_demo.py
 ```
-![demo](assets/demo.png)
+![demo](asset/demo.png)
 
 Tips: Due to the image cropping during preprocessing in LLaVA1.5, referring to region at the edges of the image may become unreliable. If your referring does not work, you can also try slightly adjusting the visual prompt or text prompt, which might produce surprising results.
 
